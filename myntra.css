@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    box-sizing: border-box;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.align-items{
+    align-items: center;
+}
+
+.justify-content{
+    justify-content: center;
+}
+
+section{
+    overflow: hidden;
+    margin: auto;
+}
+
+header{
+    width: 100vw;
+    height: 20px;
+    position: fixed;
+    top: 0;
+}
+body{
+    width: 100vw;
+    height: 130vh;
+}
+
+.myntra_logo{
+    width: 100px;
+    height: 60px;
+    padding: 0px 20px 0px 70px;
+}
+
+.searchlogo{
+    width: 60px;
+    height: 60px;
+    padding: 0px 0px 0px 85px;
+}
+
+ul li{
+    list-style: none;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+sup{
+    font-size: 10px;
+    color: rgb(245, 43, 43);
+}
+
+.flex{
+    display: flex;
+}
+
+nav{
+    top: 0;
+    font-family: 'Familjen Grotesk';font-size: 16px;
+    background-color: #ffffff;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+input{
+    width: 300px;
+    height: 30px;
+    margin: 5px;
+}
+
+.flex-wrap{
+    flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 1518px) {
+    p {
+      background-color: #ffffff;
+    }
+}
+
+.div2{
+    margin-right: 70px;
+}
+
+.image1{
+    width: 250px;
+    height: 350px;
+    margin-top: 80px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p{
+    text-align: justify;
+    width: 90vw;
+    margin: auto;
+}
+
+footer{
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
